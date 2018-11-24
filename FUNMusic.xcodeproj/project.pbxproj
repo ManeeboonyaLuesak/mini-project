@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042198EE219FF8FE00EE6867 /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042198ED219FF8FE00EE6867 /* PageTwoViewController.swift */; };
+		0433C2D7219EE86B009CD97A /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0433C2D5219EE86A009CD97A /* ProgressHUD.bundle */; };
+		0433C2D8219EE86B009CD97A /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0433C2D6219EE86A009CD97A /* ProgressHUD.m */; };
 		046FCC89219EC5F800984566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCC88219EC5F800984566 /* AppDelegate.swift */; };
 		046FCC8B219EC5F800984566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCC8A219EC5F800984566 /* ViewController.swift */; };
 		046FCC8E219EC5F800984566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046FCC8C219EC5F800984566 /* Main.storyboard */; };
 		046FCC90219EC5FA00984566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046FCC8F219EC5FA00984566 /* Assets.xcassets */; };
 		046FCC93219EC5FA00984566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046FCC91219EC5FA00984566 /* LaunchScreen.storyboard */; };
+		046FCC9B219EC86E00984566 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FCC9A219EC86E00984566 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042198ED219FF8FE00EE6867 /* PageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
+		0433C2D3219EE869009CD97A /* FUNMusic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FUNMusic-Bridging-Header.h"; sourceTree = "<group>"; };
+		0433C2D4219EE86A009CD97A /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.h"; sourceTree = "<group>"; };
+		0433C2D5219EE86A009CD97A /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.bundle"; sourceTree = "<group>"; };
+		0433C2D6219EE86A009CD97A /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = "../../ProgressHUD-master/ProgressHUD/ProgressHUD/ProgressHUD.m"; sourceTree = "<group>"; };
 		046FCC85219EC5F800984566 /* FUNMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FUNMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046FCC88219EC5F800984566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046FCC8A219EC5F800984566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,7 @@
 		046FCC8F219EC5FA00984566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046FCC92219EC5FA00984566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046FCC94219EC5FA00984566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046FCC9A219EC86E00984566 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,16 @@
 			children = (
 				046FCC88219EC5F800984566 /* AppDelegate.swift */,
 				046FCC8A219EC5F800984566 /* ViewController.swift */,
+				042198ED219FF8FE00EE6867 /* PageTwoViewController.swift */,
 				046FCC8C219EC5F800984566 /* Main.storyboard */,
+				046FCC9A219EC86E00984566 /* SecondViewController.swift */,
 				046FCC8F219EC5FA00984566 /* Assets.xcassets */,
 				046FCC91219EC5FA00984566 /* LaunchScreen.storyboard */,
 				046FCC94219EC5FA00984566 /* Info.plist */,
+				0433C2D5219EE86A009CD97A /* ProgressHUD.bundle */,
+				0433C2D4219EE86A009CD97A /* ProgressHUD.h */,
+				0433C2D6219EE86A009CD97A /* ProgressHUD.m */,
+				0433C2D3219EE869009CD97A /* FUNMusic-Bridging-Header.h */,
 			);
 			path = FUNMusic;
 			sourceTree = "<group>";
@@ -96,6 +112,7 @@
 				TargetAttributes = {
 					046FCC84219EC5F800984566 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0433C2D7219EE86B009CD97A /* ProgressHUD.bundle in Resources */,
 				046FCC93219EC5FA00984566 /* LaunchScreen.storyboard in Resources */,
 				046FCC90219EC5FA00984566 /* Assets.xcassets in Resources */,
 				046FCC8E219EC5F800984566 /* Main.storyboard in Resources */,
@@ -135,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046FCC9B219EC86E00984566 /* SecondViewController.swift in Sources */,
 				046FCC8B219EC5F800984566 /* ViewController.swift in Sources */,
+				042198EE219FF8FE00EE6867 /* PageTwoViewController.swift in Sources */,
+				0433C2D8219EE86B009CD97A /* ProgressHUD.m in Sources */,
 				046FCC89219EC5F800984566 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FUNMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,6 +312,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = maneeboonya.FUNMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FUNMusic/FUNMusic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FUNMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +332,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = maneeboonya.FUNMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FUNMusic/FUNMusic-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
